@@ -1,1 +1,1 @@
-echo "# React-linked"
+# React-linked

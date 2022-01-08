@@ -81,3 +81,40 @@ body {
     text-align: center;
     color: #DE8D08;
 }
+.left {
+    position: fixed;
+    top: 48%;
+    left: 25%;
+}
+.right {
+    position: fixed;
+    top: 48%;
+    right: 25%;
+    transform: rotate(180deg);
+}
+.teg img {
+    height: 70px;
+    opacity: 0.25;
+    cursor: pointer;
+    transition: opacity 0.25s, scale 0.2s;
+}
+.teg img:hover {
+    opacity: 0.38;
+}
+.teg img:active {
+    transform: scale(0.97);
+}
+.counter h3 {
+    background-color: rgba(123, 139, 79, 0.103);
+    color: rgba(128, 128, 128, 0.383);
+    margin: auto;
+    display: inline;
+    margin: 0;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.counter  {
+    margin: 10px 0px 15px;
+    padding: 0;
+    text-align: center;
+}
